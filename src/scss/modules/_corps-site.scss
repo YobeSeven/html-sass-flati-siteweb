@@ -1,0 +1,144 @@
+.note{
+    background-color: $colortitre;
+
+    .box-note{
+        margin-left: 100px;
+        margin-right: 100px;
+        
+
+        text-align: center;
+
+
+
+        .texte-note{
+            font-size: 30px;
+            margin: 0;
+            padding-top: 25px;
+        }
+        .nom-note{
+            font-size: 25px;
+            margin: 0;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+    }
+
+
+}
+
+.carte-competence{
+
+
+    .liste-carte-competence{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+
+        .box-carte-competence{
+            flex: 1;
+            margin: 50px;
+            text-align: center;
+            border :0px;
+            border-radius: 5px;
+            background-color: $colorcarte;
+
+            .icone-carte-competence{
+                padding: 7px;
+                border: 0px solid;
+                margin-top: 15px;
+                border-radius: 50%;
+                background-color: white;
+                color: $coloriconepied;
+                
+            }
+
+            .titre-carte-competence{
+                font-size: 25px;
+            }
+            .mini-titre-carte-competence{
+                font-size: 15px;
+                color: $coloriconepied;
+            }
+            .texte-carte-competence{
+                font-size: 20px;
+                padding-bottom: 25px;
+            }
+        }
+    }
+}
+
+.fin-corps-site{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    .box-texte-fin-corps-site{
+        flex: 1;
+
+        .titre-fin-corps-site{
+            font-size: 25px;
+        }
+
+        .texte-premier-fin-corps-site{
+            font-size:15px;
+            color: grey;
+        }
+
+        .texte-second-corps-site{
+            font-size: 15px;
+            color: black;
+            margin-bottom: 50px;
+        }
+
+        .boutton-corps-site{
+            border:0px solid;
+            border-radius: 5px ;
+            padding: 15px;
+            background-color: $coloriconepied;
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .liste-carte-fin-corps-site{
+        flex: 3;
+        display: flex;
+
+        .box-carte-fin-corps-site{
+            border: 0px solid;
+            background-color: $colorcarte2;
+            margin: 2px;
+
+            .box-image-carte-fin-corps-site{
+                
+
+                .image-carte-fin-corps-site{
+                    width: 100%;
+                }
+                
+            }
+
+            .box-texte-carte-fin-corps-site{
+                text-align: center;
+
+                .titre-carte-fin-corps-site{
+                    color: white;
+                    font-size: 25px;
+                }
+
+                .texte-carte-fin-corps-site{
+                    color: white;
+                    font-size: 15px;
+                }
+
+            }
+
+        }
+
+    }
+
+}

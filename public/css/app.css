@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'font-roboto';
+  src: url("../../public/font/Roboto/Roboto-Regular.ttf");
+}
+
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6120,4 +6125,226 @@ readers do not read off random characters that represent icons */
 .far {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400;
+}
+
+.pied-de-page {
+  text-align: center;
+  background-color: #3676BB;
+}
+
+.pied-de-page .box-titre-pied-de-page {
+  padding-top: 0px;
+}
+
+.pied-de-page .box-titre-pied-de-page .titre-pied-de-page {
+  color: white;
+  font-family: 'font-roboto';
+  font-size: 25px;
+}
+
+.pied-de-page .box-texte-pied-de-page {
+  padding-top: 0;
+}
+
+.pied-de-page .box-texte-pied-de-page .texte-pied-de-page {
+  font-size: 15px;
+  font-family: 'font-roboto';
+  color: white;
+}
+
+.pied-de-page .box-liste-option-pied-de-page .liste-option-pied-de-page {
+  display: flex;
+  justify-content: center;
+}
+
+.pied-de-page .box-liste-option-pied-de-page .liste-option-pied-de-page .option-pied-de-page {
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+.pied-de-page .box-liste-option-pied-de-page .liste-option-pied-de-page .option-pied-de-page .icone-pied-de-page {
+  color: white;
+}
+
+.pied-de-page .copyright-pied-de-page .texte-copyright-pied-de-page {
+  color: white;
+}
+
+.note {
+  background-color: #E8E6E0;
+}
+
+.note .box-note {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.note .box-note .texte-note {
+  font-size: 30px;
+  margin: 0;
+  padding-top: 25px;
+}
+
+.note .box-note .nom-note {
+  font-size: 25px;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.carte-competence .liste-carte-competence {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.carte-competence .liste-carte-competence .box-carte-competence {
+  flex: 1;
+  margin: 50px;
+  text-align: center;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #E2E0E0;
+}
+
+.carte-competence .liste-carte-competence .box-carte-competence .icone-carte-competence {
+  padding: 7px;
+  border: 0px solid;
+  margin-top: 15px;
+  border-radius: 50%;
+  background-color: white;
+  color: #3676BB;
+}
+
+.carte-competence .liste-carte-competence .box-carte-competence .titre-carte-competence {
+  font-size: 25px;
+}
+
+.carte-competence .liste-carte-competence .box-carte-competence .mini-titre-carte-competence {
+  font-size: 15px;
+  color: #3676BB;
+}
+
+.carte-competence .liste-carte-competence .box-carte-competence .texte-carte-competence {
+  font-size: 20px;
+  padding-bottom: 25px;
+}
+
+.fin-corps-site {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.fin-corps-site .box-texte-fin-corps-site {
+  flex: 1;
+}
+
+.fin-corps-site .box-texte-fin-corps-site .titre-fin-corps-site {
+  font-size: 25px;
+}
+
+.fin-corps-site .box-texte-fin-corps-site .texte-premier-fin-corps-site {
+  font-size: 15px;
+  color: grey;
+}
+
+.fin-corps-site .box-texte-fin-corps-site .texte-second-corps-site {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.fin-corps-site .box-texte-fin-corps-site .boutton-corps-site {
+  border: 0px solid;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #3676BB;
+  text-decoration: none;
+  color: white;
+}
+
+.fin-corps-site .liste-carte-fin-corps-site {
+  flex: 3;
+  display: flex;
+}
+
+.fin-corps-site .liste-carte-fin-corps-site .box-carte-fin-corps-site {
+  border: 0px solid;
+  background-color: #38485F;
+  margin: 2px;
+}
+
+.fin-corps-site .liste-carte-fin-corps-site .box-carte-fin-corps-site .box-image-carte-fin-corps-site .image-carte-fin-corps-site {
+  width: 100%;
+}
+
+.fin-corps-site .liste-carte-fin-corps-site .box-carte-fin-corps-site .box-texte-carte-fin-corps-site {
+  text-align: center;
+}
+
+.fin-corps-site .liste-carte-fin-corps-site .box-carte-fin-corps-site .box-texte-carte-fin-corps-site .titre-carte-fin-corps-site {
+  color: white;
+  font-size: 25px;
+}
+
+.fin-corps-site .liste-carte-fin-corps-site .box-carte-fin-corps-site .box-texte-carte-fin-corps-site .texte-carte-fin-corps-site {
+  color: white;
+  font-size: 15px;
+}
+
+.haut-de-page .navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #363B47;
+  width: 100%;
+}
+
+.haut-de-page .navbar .titre-tete-navbar {
+  color: white;
+  font-family: "font-roboto";
+  font-size: 40px;
+}
+
+.haut-de-page .navbar .liste-option-corps-navbar {
+  display: flex;
+}
+
+.haut-de-page .navbar .liste-option-corps-navbar .option-corps-navbar {
+  margin-left: 5px;
+  border: 0px;
+  padding: 25px;
+  list-style-type: none;
+}
+
+.haut-de-page .navbar .liste-option-corps-navbar .option-corps-navbar .lien-option-corps-navbar {
+  text-decoration: none;
+  color: grey;
+  font-size: 25px;
+}
+
+.haut-de-page .navbar .liste-option-corps-navbar .option-corps-navbar:hover {
+  background-color: #3676BB;
+}
+
+.haut-de-page .navbar .liste-option-corps-navbar .option-corps-navbar:hover .lien-option-corps-navbar {
+  color: white;
+}
+
+.haut-de-page .box-image-haut-de-page {
+  width: 100%;
+}
+
+.haut-de-page .box-image-haut-de-page .image-haut-de-page {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
 }

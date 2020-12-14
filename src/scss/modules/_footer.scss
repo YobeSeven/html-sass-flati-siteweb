@@ -1,0 +1,45 @@
+.pied-de-page{
+    text-align: center;
+    background-color: $coloriconepied;
+
+    .box-titre-pied-de-page{
+        padding-top: 0px;
+
+        .titre-pied-de-page{
+            color: white;
+            font-family: 'font-roboto' ;
+            font-size: 25px;
+        }
+    }
+    .box-texte-pied-de-page{
+        padding-top:0;
+
+        .texte-pied-de-page{
+            font-size: 15px;
+            font-family: 'font-roboto';
+            color: white;
+
+        }
+    }
+    .box-liste-option-pied-de-page{
+        .liste-option-pied-de-page{
+            display: flex;
+            justify-content: center;
+
+            .option-pied-de-page{
+                margin-left:20px;
+                list-style-type: none;
+
+                .icone-pied-de-page{
+                    color: white;
+                }
+
+            }
+        }
+    }
+    .copyright-pied-de-page{
+        .texte-copyright-pied-de-page{
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.haut-de-page{
+
+    .navbar{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: $colornavbar;
+        width: 100%;
+
+        .titre-tete-navbar{
+            color: white;
+            font-family: "font-roboto";
+            font-size: 40px;
+        }
+
+        .liste-option-corps-navbar{
+            display: flex;
+
+            .option-corps-navbar{
+                margin-left: 5px;
+                border: 0px ;
+                padding: 25px;
+                list-style-type: none;
+
+                .lien-option-corps-navbar{
+                    text-decoration: none;
+                    color: grey;
+                    font-size: 25px;
+                }
+                
+            }
+            .option-corps-navbar:hover{
+                background-color: $coloriconepied;
+
+                .lien-option-corps-navbar{
+                    color: white;
+                }
+
+            }
+
+        }
+
+    }
+
+    .box-image-haut-de-page{
+        width: 100%;
+        
+        .image-haut-de-page{
+            max-width: 100%;
+            
+        }
+    }
+}
